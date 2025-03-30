@@ -5,14 +5,14 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/home' element={<Home />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   )
 }
 
