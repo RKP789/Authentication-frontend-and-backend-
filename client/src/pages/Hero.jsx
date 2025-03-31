@@ -10,10 +10,10 @@ function Hero() {
       <span className='bg-gradient-to-r from-orange-500 via-purple-500 to-green-500 text-7xl font-bold bg-clip-text text-transparent'>Welcome to Authentication</span>
       <div className='flex justify-between w-[30rem] text-2xl p-3'>
         <div className='bg-gradient-to-r from-purple-500 to-red-500 p-1 rounded-lg shadow-2xl active:scale-95'>
-          <Link to="/api/auth/sign-up"><button className='bg-gray-700 rounded-md px-2 py-1 text-white hover:bg-transparent'>Sign Up</button></Link>
+          <Link to="/auth/signup"><button className='bg-gray-700 rounded-md px-2 py-1 text-white hover:bg-transparent'>Sign Up</button></Link>
         </div>
         <div className='bg-gradient-to-r from-yellow-500 to-red-500 p-1 rounded-lg shadow-lg active:scale-95'>
-          <Link to="/api/auth/sign-in"><button className='bg-gray-700 rounded-md px-2 py-1 text-white hover:bg-transparent'>Sign In</button></Link>
+          <Link to="/auth/signin"><button className='bg-gray-700 rounded-md px-2 py-1 text-white hover:bg-transparent'>Sign In</button></Link>
         </div>
       </div>
     </div>

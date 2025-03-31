@@ -13,7 +13,7 @@ dotenv.config();
 // connecting database
 connectdb();
 
-app.use(cors({ origin: "http://localhost:5174", credentials: true }));
+app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 // cookie-parser to parse cookie
 app.use(cookieParser());
@@ -22,10 +22,10 @@ app.use(cookieParser());
 app.use(express.json());
 
 // authentication routes
-app.use("/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 
 // user routes
-app.use("/user", userRoutes);
+app.use("/api/user", userRoutes);
 
 // server is listening
 app.listen(process.env.PORT, () => {
